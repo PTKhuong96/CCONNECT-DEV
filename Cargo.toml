@@ -2,7 +2,7 @@
 name = "cconnect-dev"
 version = "0.1.0"
 authors = ["khuongpt1 <khuongpt1@fsoft.com.vn>"]
-edition = "2022"
+edition = "2018"
 
 
 exclude = [
