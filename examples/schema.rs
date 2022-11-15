@@ -8,7 +8,7 @@ use cw721::{
     NumTokensResponse, OperatorsResponse, OwnerOfResponse, TokensResponse,
 };
 use cw721_base::MinterResponse;
-use name_service::msg::{ExecuteMsg, Extension, InstantiateMsg, QueryMsg};
+use cconnect_contract_service::msg::{ExecuteMsg, Extension, InstantiateMsg, QueryMsg};
 
 fn main() {
     let mut out_dir = current_dir().unwrap();
